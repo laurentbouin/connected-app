@@ -1,0 +1,24 @@
+require:
+    - play
+    - play -> gae 1.4
+    - play -> cobertura 2.4
+    - play -> siena 2.0.6:
+       exclude:
+           - com.google.appengine -> *
+    - com.google.code.gson -> gson 1.7.1
+    - com.google.guava -> guava 13.0
+    - fi.foyt -> foursquare-api 1.0.2:
+        exclude:
+            - com.google.appengine -> *
+            - javax.servlet -> *
+    - fi.foyt -> foursquare-api-gae 0.0.2:
+        exclude:
+            - com.google.appengine -> *
+            - javax.servlet -> *
+
+repositories:
+    - foursquare-api:
+        type: iBiblio
+        root: "http://foursquare-api-java.googlecode.com/svn/repository"
+        contains:
+            - fi.foyt -> *
