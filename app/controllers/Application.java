@@ -67,6 +67,9 @@ public class Application extends Controller {
                 user.token = oauthToken; //replace the token for the given user
                 user.update();
             }
+            
+            // Cache will be used soon
+
 
             connected();
 
@@ -94,6 +97,7 @@ public class Application extends Controller {
         String reply = "Here is your reply";
 
         // Starting the database part -----------------------------------
+        // Cache will be used soon
         ConnectedUser user = ConnectedUser.findByUserId(pushed.user.id);
 
         //Of course you need to encode your reply
