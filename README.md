@@ -4,34 +4,35 @@ connected-app
 A simple Play Framework Application template ready to be a Foursquare Connected App
 
 
-Technical Environment 
+Before starting
 ---------------------
 
-   * Play Framework 1.2 (http://www.playframework.org/download) 
-   * GAE SDK for Java (https://developers.google.com/appengine/downloads#Google_App_Engine_SDK_for_Java) 
+   * install Play Framework 1.2 (http://www.playframework.org/download) 
+   * [Google App Engine SDK][https://developers.google.com/appengine/downloads#Google_App_Engine_SDK_for_Java]
 
 App Engine: 
 
-   * Go to your Google App Engine account (https://appengine.google.com/) and create a new application (good luck to finding an available name)
+   * Go to your [Google App Engine account][https://appengine.google.com/ and create a new application (good luck to finding an available name)
 
 Foursquare: 
 
   1. Go to [Foursquare](https://foursquare.com/oauth) and register a new consumer
   2. Be sure to allow your consumer to receive push notifications
-  3. for the Push URL: https://your_gae_application.appspot.com/psh
+  3. for the Push URL: `https://your_gae_application.appspot.com/psh`
+    
 
-Github:
+Start developing your Foursquare Connected App
+----------------------------------------------
 
   1. Clone the repo
   2. `Play dependencies`
   3. `Play run`
   4. [Test your application](http://localhost:9000/)
   5. Click "Connect the App" see the error page
-  6. in the `/conf/application.conf` change the properties "4sqre.client.id", "4sqre.client.secret" and "4sqre.redirectURL" with your consumer's values.
-  7. "4sqre.version" = today in the YYYYMMDD format
+  6. In `/conf/application.conf` change `4sqre.client.id`, `4sqre.client.secret` and `4sqre.redirectURL` with your consumer's values.
+  7. `4sqre.version` = today in the YYYYMMDD format
 
-Deployment: 
-
+###Deployment: 
 
   1. Deploy your application with `play gae:deploy`
   2. go to https://your_gae_application.appspot.com
