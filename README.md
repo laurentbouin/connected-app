@@ -7,14 +7,14 @@ A simple Play Framework Application template ready to be a Foursquare Connected 
 Before starting
 ---------------------
 
-   * install Play Framework 1.2 (http://www.playframework.org/download) 
-   * [Google App Engine SDK][https://developers.google.com/appengine/downloads#Google_App_Engine_SDK_for_Java]
+   * Install [Play Framework 1.2](http://www.playframework.org/download) 
+   * Install [Google App Engine SDK](https://developers.google.com/appengine/downloads#Google_App_Engine_SDK_for_Java)
 
-App Engine: 
+###App Engine: 
 
-   * Go to your [Google App Engine account][https://appengine.google.com/ and create a new application (good luck to finding an available name)
+   * Go to your [Google App Engine account](https://appengine.google.com/) and create a new application (good luck to finding an available name)
 
-Foursquare: 
+###Foursquare: 
 
   1. Go to [Foursquare](https://foursquare.com/oauth) and register a new consumer
   2. Be sure to allow your consumer to receive push notifications
