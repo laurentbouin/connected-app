@@ -40,3 +40,12 @@ Start developing your Foursquare Connected App
   4. Go to your [consumer's details](https://foursquare.com/oauth) and use the "Send a test push" feature 
   5. If the test if successful, take your phone, checkin, enjoy :)
 
+You want to see the template in action ? 
+----------------------------------------
+
+No prob, go to http://sorryisavailable.appspot.com and connect your foursquare account
+
+You want to unit test your push consumer ? 
+------------------------------------------
+
+Yes ? Me too, I'm working on it. :)
