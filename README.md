@@ -43,9 +43,18 @@ Start developing your Foursquare Connected App
 You want to see the template in action ? 
 ----------------------------------------
 
-No prob, go to http://sorryisavailable.appspot.com and connect your foursquare account
+No prob, go to http://sorryisavailable.appspot.com and connect your foursquare account and checkin
 
 You want to unit test your push consumer ? 
 ------------------------------------------
 
 Yes ? Me too, I'm working on it. :)
+
+
+Author
+-------
+
+**Laurent Bouin**
+
++ http://twitter.com/laurentbouin
++ http://about.me/laurentbouin
