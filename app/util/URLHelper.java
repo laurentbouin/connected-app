@@ -27,6 +27,7 @@ public class URLHelper {
     String result =  StringUtils.replace(REPLY_URL,"USER_TOKEN",userToken);
     result = StringUtils.replace(result, "PUSH_ID", ""+pushedId);
     result = StringUtils.replace(result, "REPLY_TEXT", text);
+    result = StringUtils.replace(result,"VERSION", FoursquareConfiguration.getInstance().getVersion());
 
     return result;
   }
