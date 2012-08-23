@@ -5,12 +5,14 @@ import siena.Id;
 import siena.Model;
 import siena.Query;
 
+import java.io.Serializable;
+
 /**
  * User: lbouin
  * Date: 20/08/12
  * Time: 18:01
  */
-public class ConnectedUser extends Model {
+public class ConnectedUser extends Model implements Serializable{
 
     @Id(Generator.AUTO_INCREMENT)
     public Long id;
