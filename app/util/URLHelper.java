@@ -22,7 +22,7 @@ public class URLHelper {
     return result;
   }
 
-  public static String buildReplyUrl(Long pushedId, String text, String userToken){
+  public static String buildReplyUrl(String pushedId, String text, String userToken){
 
     String result =  StringUtils.replace(REPLY_URL,"USER_TOKEN",userToken);
     result = StringUtils.replace(result, "PUSH_ID", ""+pushedId);
