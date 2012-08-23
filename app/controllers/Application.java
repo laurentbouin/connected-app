@@ -107,7 +107,7 @@ public class Application extends Controller {
             //TODO: error handling but for a simple encoding it should be easy
         }
 
-        String replyUrl = URLHelper.buildReplyUrl(push.id, reply, user.token);
+        String replyUrl = URLHelper.buildReplyUrl(pushed.id, reply, user.token);
 
         //send the reply to the user
         WS.url(replyUrl).post().getString();
